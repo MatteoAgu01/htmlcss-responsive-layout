@@ -85,7 +85,7 @@ img{
 }
 
 .fa-apple-whole{
-     color: black;
+     color:var(--ligth-color);
 }
 
 .card div{
@@ -96,6 +96,7 @@ img{
 
 .get-start{
      background-color: var(--bg-blue);
+     color: var(--ligth-color);
      border-radius: 30px;
      width: 70%;
      padding: 3% 0;
@@ -270,13 +271,18 @@ h3{
      font-size: 1.2rem;
 }
 
+.gs{
+     color: var(--ligth-color);
+}
+
 .gs *{
      padding: 0;
      text-align: center;
 }
 
-.gs>p{
+.gs>div{
      margin: 10% 0;
+     width: 100%;
 }
 
 .gs1{
@@ -298,7 +304,16 @@ h3{
 .gs-btn{
      background-color: var(--ligth-color);
      color: var(--bg-even);
-     border-radius: 10%;
+     font-size: 1.7rem;
+     padding: 5% 25%;
+     width: 75%;
+     border-radius: 50px;
+}
+
+.gs>div>p>a,
+.gs>div>p>a:visited{
+     color: var(--ligth-color);
+     text-decoration: underline;
 }
 
 /* //main */
